@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Certifications | My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        .certifications {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .certifications h1 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #222;
+        }
+
+        .cert-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .cert-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 450px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .cert-item:hover {
+            transform: scale(1.03);
+        }
+
+        .cert-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .cert-title {
+            font-size: 1.3em;
+            margin-top: 15px;
+            color: #444;
+        }
+
+        .cert-desc {
+            font-size: 0.95em;
+            margin-top: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="certifications.html" class="active">Certifications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="certifications">
+        <h1>My Certifications</h1>
+        <div class="cert-list">
+            <div class="cert-item">
+                <img src="Computer Networks And Internet Protocol_page-0001.jpg" alt="Computer Networks And Internet Protocol">
+                <div class="cert-title">Computer Networks and Internet Protocol</div>
+                <div class="cert-desc">Certified for completing foundational training in networking protocols, IP addressing, and routing fundamentals.</div>
+            </div>
+            <div class="cert-item">
+                <img src="Ethical Hacking_page-0001.jpg" alt="Ethical Hacking">
+                <div class="cert-title">Ethical Hacking</div>
+                <div class="cert-desc">Successfully completed ethical hacking certification, covering penetration testing, vulnerability assessment, and cybersecurity best practices.</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
